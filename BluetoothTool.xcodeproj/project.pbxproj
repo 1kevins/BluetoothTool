@@ -15,6 +15,8 @@
 		40016B53229B922400AB17F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40016B52229B922400AB17F6 /* main.m */; };
 		40016B5D229B922400AB17F6 /* BluetoothToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40016B5C229B922400AB17F6 /* BluetoothToolTests.m */; };
 		40016B68229B922400AB17F6 /* BluetoothToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40016B67229B922400AB17F6 /* BluetoothToolUITests.m */; };
+		40016B77229B964200AB17F6 /* bleServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40016B76229B964200AB17F6 /* bleServerViewController.m */; };
+		40016B7A229B96D400AB17F6 /* BleCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40016B79229B96D400AB17F6 /* BleCustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		40016B63229B922400AB17F6 /* BluetoothToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40016B67229B922400AB17F6 /* BluetoothToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothToolUITests.m; sourceTree = "<group>"; };
 		40016B69229B922400AB17F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40016B75229B964200AB17F6 /* bleServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bleServerViewController.h; sourceTree = "<group>"; };
+		40016B76229B964200AB17F6 /* bleServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bleServerViewController.m; sourceTree = "<group>"; };
+		40016B78229B96D400AB17F6 /* BleCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BleCustomViewController.h; sourceTree = "<group>"; };
+		40016B79229B96D400AB17F6 /* BleCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleCustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				40016B44229B921C00AB17F6 /* AppDelegate.m */,
 				40016B46229B921C00AB17F6 /* ViewController.h */,
 				40016B47229B921C00AB17F6 /* ViewController.m */,
+				40016B75229B964200AB17F6 /* bleServerViewController.h */,
+				40016B76229B964200AB17F6 /* bleServerViewController.m */,
+				40016B78229B96D400AB17F6 /* BleCustomViewController.h */,
+				40016B79229B96D400AB17F6 /* BleCustomViewController.m */,
 				40016B49229B921C00AB17F6 /* Main.storyboard */,
 				40016B4C229B922400AB17F6 /* Assets.xcassets */,
 				40016B4E229B922400AB17F6 /* LaunchScreen.storyboard */,
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40016B48229B921C00AB17F6 /* ViewController.m in Sources */,
+				40016B7A229B96D400AB17F6 /* BleCustomViewController.m in Sources */,
+				40016B77229B964200AB17F6 /* bleServerViewController.m in Sources */,
 				40016B53229B922400AB17F6 /* main.m in Sources */,
 				40016B45229B921C00AB17F6 /* AppDelegate.m in Sources */,
 			);
@@ -436,8 +448,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV5PF5JMZ5;
+				DEVELOPMENT_TEAM = 388CQ2BCV6;
 				INFOPLIST_FILE = BluetoothTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV5PF5JMZ5;
+				DEVELOPMENT_TEAM = 388CQ2BCV6;
 				INFOPLIST_FILE = BluetoothTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
